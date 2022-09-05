@@ -1,0 +1,28 @@
+.bar {
+    margin: auto;
+}
+
+@media only screen and (min-width: 1200px){
+    .bar {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .bar {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bar {
+        width: 70vw;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 812px) {
+    .bar {
+        width: 60vw
+    }
+}

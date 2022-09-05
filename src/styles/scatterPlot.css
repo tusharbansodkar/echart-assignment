@@ -1,0 +1,27 @@
+.scatter {
+    margin: auto;
+}
+
+@media only screen and (min-width: 1200px){
+    .scatter {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .scatter {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 812px) and (max-width: 1024px) {
+    .scatter {
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 812px) {
+    .scatter {
+        width: 60vw
+    }
+}
