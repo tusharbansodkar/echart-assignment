@@ -17,7 +17,7 @@ const BarChart = ({ data }) => {
     // updated code from here for scalability
 
     //an object for storing required details category wise
-    //each category in the object has an array which stores [category, occurence, avgMalicAcid]
+    //each category in the object has an array which stores [totalMalicAcid, occurence, avgMalicAcid]
     let alcoholCategories = {};
 
     // an array to store avg malic acid values at one place
